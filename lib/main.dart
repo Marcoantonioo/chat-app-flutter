@@ -1,4 +1,4 @@
-import 'package:base_flutter_project/components/app_state/app_state_component.dart';
+import 'package:chat_app/components/app_state/app_state_component.dart';
 import 'package:flutter/material.dart';
 
 void main() {

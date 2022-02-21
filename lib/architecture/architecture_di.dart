@@ -1,4 +1,4 @@
-import 'package:base_flutter_project/architecture/injection/injector.dart';
+import 'package:chat_app/architecture/injection/injector.dart';
 
 class ArchitectureInjector extends Injector {
   @override

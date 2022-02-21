@@ -1,10 +1,10 @@
-import 'package:base_flutter_project/app_injector.dart';
-import 'package:base_flutter_project/components/app_state/event/app_state_component_event.dart';
-import 'package:base_flutter_project/components/app_state/binding/app_state_component_binding.dart';
-import 'package:base_flutter_project/components/app_state/controller/app_state_component_controller.dart';
-import 'package:base_flutter_project/main.dart';
-import 'package:base_flutter_project/routes/route_name.dart';
-import 'package:base_flutter_project/routes/routes.dart';
+import 'package:chat_app/app_injector.dart';
+import 'package:chat_app/components/app_state/event/app_state_component_event.dart';
+import 'package:chat_app/components/app_state/binding/app_state_component_binding.dart';
+import 'package:chat_app/components/app_state/controller/app_state_component_controller.dart';
+import 'package:chat_app/main.dart';
+import 'package:chat_app/routes/route_name.dart';
+import 'package:chat_app/routes/routes.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
@@ -44,7 +44,7 @@ class AppStateComponent extends State<MyApp> with WidgetsBindingObserver {
       initialBinding: AppInjector(),
       debugShowCheckedModeBanner: false,
       getPages: routes,
-      initialRoute: RouteName.login,
+      initialRoute: RouteName.home,
     );
   }
 }
